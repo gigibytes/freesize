@@ -1,7 +1,7 @@
 open System
 open System.IO
 
-let path = "/home/gigi/Programming/test/freesize_testfiles"
+let path = "/home/gigi/Downloads"
 
 let pathInfo = FileInfo(path)
 
@@ -15,5 +15,5 @@ let files = Directory.EnumerateFiles(path) //EnumerateFiles vs GetFiles?
 files |> List.ofSeq |> List.map (fun f -> FileInfo(f).Length)
 //yields val it: int64 list = [0L; 0L; 0L; 0L; 0L; 0L; 0L; 0L; 0L; 0L; 25L; 10L]
 
-//add up sizes
-files |> List.ofSeq |> List.map (fun f -> FileInfo(f).Length) |> List.sum
+//add up sizes and print
+files |> List.ofSeq |> List.map (fun f -> FileInfo(f).Length) |> List.sum |> printf "the collective file size in the directory %s is %d" path
