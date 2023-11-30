@@ -11,4 +11,4 @@ let main (args) =
     //add up sizes and print
     files |> List.ofSeq |> List.map (fun f -> FileInfo(f).Length) |> List.sum |> printf "the collective file size in the directory %s is %d" path
 
-main fsi.CommandLineArgs[0] //add 'from fsi' when running script
+main fsi.CommandLineArgs[1] //add 'from fsi' when running script
