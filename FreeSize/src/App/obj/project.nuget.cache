@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U3JvtoXtN7Hi9Xgy8Fk/RzxPMRz6YjIVa2SDBAlJsiPyta7sXjv08BEPCp9cpTrK9LRklH7raCFuIbsctS9eiA==",
+  "dgSpecHash": "17pnOlMroGmsCszLb55jV7RSIlzGQBVQs3re6mMqhC9+0hcEHG0zQw6y1BvXTXFB/aA0SisvkxHs0Bst3UnsxA==",
   "success": true,
   "projectFilePath": "/home/gigi/Programming/FSharp/Projects/freesize/FreeSize/src/App/App.fsproj",
   "expectedPackageFiles": [
+    "/home/gigi/.nuget/packages/bytesize/2.1.1/bytesize.2.1.1.nupkg.sha512",
     "/home/gigi/.nuget/packages/fsharp.core/7.0.0/fsharp.core.7.0.0.nupkg.sha512"
   ],
   "logs": []

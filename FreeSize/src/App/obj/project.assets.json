@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "ByteSize/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/ByteSize.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/ByteSize.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FSharp.Core/7.0.0": {
         "type": "package",
         "compile": {
@@ -59,6 +72,27 @@
     }
   },
   "libraries": {
+    "ByteSize/2.1.1": {
+      "sha512": "D+Y3NpbHrW21vZwwegeWf/8iAg2Mr0s7n1su8Ysho+O9dctJ5/EkWUi19QVxc6+nZl080gGTXBP/Nz0twSI3dA==",
+      "type": "package",
+      "path": "bytesize/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bytesize.2.1.1.nupkg.sha512",
+        "bytesize.nuspec",
+        "lib/net45/ByteSize.dll",
+        "lib/net45/ByteSize.xml",
+        "lib/net5.0/ByteSize.dll",
+        "lib/net5.0/ByteSize.xml",
+        "lib/netstandard1.0/ByteSize.dll",
+        "lib/netstandard1.0/ByteSize.xml",
+        "lib/netstandard2.0/ByteSize.dll",
+        "lib/netstandard2.0/ByteSize.xml",
+        "lib/netstandard2.1/ByteSize.dll",
+        "lib/netstandard2.1/ByteSize.xml"
+      ]
+    },
     "FSharp.Core/7.0.0": {
       "sha512": "K136q+C31Wuf8vnMRU+o0jnsPX4RywdvL+gO+MlKfnT+hXLL4MduxBglj7jIlQ40wajCkVXZ91eePxQ9HCPW8g==",
       "type": "package",
@@ -103,6 +137,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ByteSize >= 2.1.1",
       "FSharp.Core >= 7.0.0"
     ]
   },
@@ -139,6 +174,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "ByteSize": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "FSharp.Core": {
             "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
             "target": "Package",
