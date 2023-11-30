@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U3JvtoXtN7Hi9Xgy8Fk/RzxPMRz6YjIVa2SDBAlJsiPyta7sXjv08BEPCp9cpTrK9LRklH7raCFuIbsctS9eiA==",
+  "success": true,
+  "projectFilePath": "/home/gigi/Programming/FSharp/Projects/freesize/FreeSize/src/App/App.fsproj",
+  "expectedPackageFiles": [
+    "/home/gigi/.nuget/packages/fsharp.core/7.0.0/fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
